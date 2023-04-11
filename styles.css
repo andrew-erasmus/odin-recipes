@@ -7,7 +7,7 @@ img{
     text-align: center;
 }
 
-.ingredient{
+.list{
     display: inline-block;
     text-align: left;
 }
@@ -18,8 +18,6 @@ img{
     padding: 10px;
     background-color: wheat;
     color: black;
-    
-
 }
 
 .buttons .recipe-button{
@@ -28,14 +26,39 @@ img{
     font-size: 20px;
 }
 
-.heading{
+#main-heading, .heading, .small-heading{
     text-align: center;
     background-color: orange;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.heading{
     font-weight: bold;
     font-size: 50px;
 }
+
+.small-heading{
+    font-size: 20px;
+}
+
+.subheading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#main-heading{
+    
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+
+    text-shadow: 0px 3px 1px black;
+}
+
+
 
 
 
